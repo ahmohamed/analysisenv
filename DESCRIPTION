@@ -7,36 +7,38 @@ Authors@R:
 Description: Wrapping depedencies for analysis, which makes it easier
     to dockerize and deploy.
 Suggests:
-    jsonlite,
-    gridExtra,
-    reshape2,
-    tidyverse,
-    bigrquery,
-    plotly,
-    UpSetR,
-    ggbiplot,
-    igraph,
-    tidygraph,
-    matrixStats,
-    Rtsne,
-    SingleCellExperiment,
-    SpatialExperiment,
-    limma,
-    ensembldb,
-    clusterProfiler,
-    scran,
-    scater,
-    uwot,
-    sctransform,
-    pals,
-    survminer,
-    singscore,
-    vissE
+    caret,
+    earth,
+    party,
+    kernlab,
+    h2o,
+    pls,
+    kknn,
+    caTools,
+    RSNNS,
+    keras,
+    monmlp,
+    naivebayes,
+    mda,
+    gpls,
+    obliqueRF,
+    plsRglm,
+    spls,
+    quantregForest,
+    randomForest,
+    wsrf,
+    rpart,
+    RRF,
+    sdwd,
+    e1071,
+    LiblineaR,
+    fastAdaboost,
+    C50
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends: 
-    R (>= 4.1)
+    R (>= 4.3)
 LazyData: false
 BiocViews: Pathways
